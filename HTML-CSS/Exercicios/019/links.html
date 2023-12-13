@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-elementos / links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: crimson;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a::after {
+            content: ' link ';
+            text-decoration: none;
+            font-weight: normal;
+            color: steelblue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css" target="_blank">Repo GitHub</a></li>
+        <li><a href="https://www.w3.org/standards/"target="_blank">Canal YT</a></li>
+        <li><a href="https://www.youtube.com/@CursoemVideo"target="_blank">Site Curso em vídeo</a></li>
+    </ul>
+</body>
+</html>
