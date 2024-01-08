@@ -1,1 +1,79 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('pacote-projeto-d011/fontes/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+        background-color: rgb(129, 226, 171);
+        margin: 0px;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #a2dda2 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700cb 83%);
+    color: white;
+}
+header > h1 {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+header > h2 {
+        text-align: center;
+        font-weight: lighter;
+}
+header > nav {
+    text-align: center;
+    color: white;
+}
+
+
+main {
+    background-color: white;
+    width: 900px;
+    height:auto ;
+    margin: auto;
+}
+ 
+
+article > h1{
+    color: #0A3A20;
+    font-family: 'idroid', 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: left;
+    margin: 15px 10px 10px 30px;
+    padding: 15px 1px 1px 3px ;
+    font-size:xx-large;
+}
+article > h2 {
+    color: #0A3A20;
+    font-family: 'idroid', 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 15px 10px 10px 30px;
+    padding: 15px 1px 1px 1px ;
+    background-image: linear-gradient(to right, #478a66d7,#7aa28c77, #85cda74d, #cbd6d025 );
+}
+article > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 20px;
+    padding: 10px 20px 10px 20px;
+}
+article > img#idIrina {
+    border: 10px;
+    padding: 1px 1px;
+    box-shadow: 3px 3px 19px 2px rgba(0, 0, 0, 0.301);
+}
+article > img#idBugdroid {
+    padding: 0px 0px 0px 230px;
+}
+aside {
+    background-color: #0A3A20;
+    padding: 40px
+}
+aside > iframe {
+    border: 1px 1px 1px 100px;
+    padding: 0px 0px 0px 125px;
+    
+}
